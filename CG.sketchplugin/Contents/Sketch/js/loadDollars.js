@@ -13,7 +13,6 @@ var loadText = function(context){
 
 
 		[layer setStringValue: "$" + numberWithCommas(randomNum)];
-		[layer setName: "$" + randomNum];
 		[layer adjustFrameToFit];	
 	}
 	tools.checkPluginUpdate();
