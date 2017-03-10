@@ -7,7 +7,6 @@ var loadText = function(context, data, label){
 		var randomData = data[ Math.floor(Math.random() * data.length) ];
 		if(randomData){			
 			[layer setStringValue: randomData];
-			[layer setName: label];
 			[layer adjustFrameToFit];
 		}		
 	}
