@@ -8,6 +8,5 @@ var loadText = function(context, data, secondData){
 		if(secondData) randomName += ' ' + secondData[ Math.floor(Math.random() * secondData.length) ];
 
 		[layer setStringValue: randomName];
-		[layer setName: randomName];
 	}
 };
